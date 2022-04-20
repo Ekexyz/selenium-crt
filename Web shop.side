@@ -1,0 +1,640 @@
+{
+  "id": "c5283102-175f-4ae8-93b4-3930c7650073",
+  "version": "2.0",
+  "name": "Web shop",
+  "url": "https://qentinelqi.github.io",
+  "tests": [{
+    "id": "118d0d3c-3e97-4a0f-9b72-3d5b7074b270",
+    "name": "sample test",
+    "commands": [{
+      "id": "89193891-e3cb-4c25-a001-576059088fdc",
+      "comment": "",
+      "command": "open",
+      "target": "/shop/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "550eac75-6416-40d9-aed3-5072de992a11",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1425x948",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95904de4-09ca-4396-a207-736e0a6c56ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Find your spirit animal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01e8512c-9d1f-4ceb-b819-21927ad2d301",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hero",
+      "targets": [
+        ["css=.hero", "css:finder"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52738db2-eaaa-41df-b390-e4d417ee9e1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .style:nth-child(1) img",
+      "targets": [
+        ["css=li:nth-child(1) .style:nth-child(1) img", "css:finder"],
+        ["xpath=//div[@id='products']/section/div/ul/li/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d15f4a21-9b37-49e2-99de-afd2e87190c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-add-item",
+      "targets": [
+        ["css=.snipcart-add-item", "css:finder"],
+        ["xpath=//div[@id='add']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "769d85d1-d336-4005-bfe9-3e7c66b1aa3c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.snipcart-add-item",
+      "targets": [
+        ["css=.snipcart-add-item", "css:finder"],
+        ["xpath=//div[@id='add']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8af8af52-8a76-4a11-9af2-9220604f2101",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.snipcart-add-item",
+      "targets": [
+        ["css=.snipcart-add-item", "css:finder"],
+        ["xpath=//div[@id='add']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1726377e-b70e-4921-b2ba-4fd447b61e47",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart__button--icon:nth-child(3) path",
+      "targets": [
+        ["css=.snipcart__button--icon:nth-child(3) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "74b16197-c72b-4fac-ac10-6a767a1bd9f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-cart-button",
+      "targets": [
+        ["css=.snipcart-cart-button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='snipcart']/div/div/div/section/div/div[2]/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33098ecc-a497-41cf-9309-120a78e4ac29",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='snipcart-billing-form']/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b39977f-c738-43b1-b21c-3cc5172db6c6",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='snipcart-billing-form']/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Erkka"
+    }, {
+      "id": "dec1e3d1-614e-4759-8c78-104fcdf9ec9b",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='snipcart-billing-form']/div/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "erkk"
+    }, {
+      "id": "49e11483-7ae8-413a-a016-0066fadf073e",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='snipcart-billing-form']/div/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "erkka.karimaki@gmail.com"
+    }, {
+      "id": "d6305e88-fdec-486b-8f9b-1efe21bc771e",
+      "comment": "",
+      "command": "type",
+      "target": "id=address2",
+      "targets": [
+        ["id=address2", "id"],
+        ["name=address2", "name"],
+        ["css=#address2", "css:finder"],
+        ["xpath=//input[@id='address2']", "xpath:attributes"],
+        ["xpath=//form[@id='snipcart-billing-form']/div/div[2]/fieldset/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "A"
+    }, {
+      "id": "e6efbe3d-5d25-4e9c-8e68-d6184c2d8a15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-textbox:nth-child(2)",
+      "targets": [
+        ["css=.snipcart-textbox:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='snipcart-billing-form']/div/div[2]/fieldset/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ab7e9c2-0c44-48ce-9677-778902a8e732",
+      "comment": "",
+      "command": "type",
+      "target": "id=address",
+      "targets": [
+        ["id=address", "id"],
+        ["css=#address", "css:finder"],
+        ["xpath=//input[@id='address']", "xpath:attributes"],
+        ["xpath=//form[@id='snipcart-billing-form']/div/div[2]/fieldset/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "Some Address Some Where 12"
+    }, {
+      "id": "d9060aa3-e311-48cd-8364-bb3a8721be50",
+      "comment": "",
+      "command": "click",
+      "target": "id=address2",
+      "targets": [
+        ["id=address2", "id"],
+        ["name=address2", "name"],
+        ["css=#address2", "css:finder"],
+        ["xpath=//input[@id='address2']", "xpath:attributes"],
+        ["xpath=//form[@id='snipcart-billing-form']/div/div[2]/fieldset/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89bffeca-44ba-41b1-88d4-96edc66f938f",
+      "comment": "",
+      "command": "click",
+      "target": "id=address2",
+      "targets": [
+        ["id=address2", "id"],
+        ["name=address2", "name"],
+        ["css=#address2", "css:finder"],
+        ["xpath=//input[@id='address2']", "xpath:attributes"],
+        ["xpath=//form[@id='snipcart-billing-form']/div/div[2]/fieldset/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2893fef4-9ff4-44a8-ba7c-95b0c0670a06",
+      "comment": "",
+      "command": "click",
+      "target": "id=address2",
+      "targets": [
+        ["id=address2", "id"],
+        ["name=address2", "name"],
+        ["css=#address2", "css:finder"],
+        ["xpath=//input[@id='address2']", "xpath:attributes"],
+        ["xpath=//form[@id='snipcart-billing-form']/div/div[2]/fieldset/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66227595-08ea-40c5-aeee-5a8c98a08bbf",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=address2",
+      "targets": [
+        ["id=address2", "id"],
+        ["name=address2", "name"],
+        ["css=#address2", "css:finder"],
+        ["xpath=//input[@id='address2']", "xpath:attributes"],
+        ["xpath=//form[@id='snipcart-billing-form']/div/div[2]/fieldset/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e57eb9d-25f9-407d-88e4-5e9c4d9dde7e",
+      "comment": "",
+      "command": "type",
+      "target": "id=address2",
+      "targets": [
+        ["id=address2", "id"],
+        ["name=address2", "name"],
+        ["css=#address2", "css:finder"],
+        ["xpath=//input[@id='address2']", "xpath:attributes"],
+        ["xpath=//form[@id='snipcart-billing-form']/div/div[2]/fieldset/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "b"
+    }, {
+      "id": "abef36ae-c8c7-43e9-8fda-631e93e55037",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=address",
+      "targets": [
+        ["id=address", "id"],
+        ["css=#address", "css:finder"],
+        ["xpath=//input[@id='address']", "xpath:attributes"],
+        ["xpath=//form[@id='snipcart-billing-form']/div/div[2]/fieldset/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aa8827e-f394-4917-87ea-68b79a822f2d",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.snipcart-form__row:nth-child(2)",
+      "targets": [
+        ["css=.snipcart-form__row:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='snipcart-billing-form']/div/div[2]/fieldset/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/fieldset/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebde7ca8-00b2-4324-9342-e7d21b164d77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-form__set:nth-child(1)",
+      "targets": [
+        ["css=.snipcart-form__set:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='snipcart-billing-form']/div/div[2]/fieldset", "xpath:idRelative"],
+        ["xpath=//div[2]/fieldset", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65330541-a8de-4b60-96cf-f801bc1859b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-layout__cols",
+      "targets": [
+        ["css=.snipcart-layout__cols", "css:finder"],
+        ["xpath=//div[@id='snipcart']/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df0c0ca2-f254-42d1-8dba-1f164aad0594",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-cart-button",
+      "targets": [
+        ["css=.snipcart-cart-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='snipcart-billing-form']/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue to payment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bceb4b5d-31e9-4f14-9384-f17b61a1ea8c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-flash-message__content",
+      "targets": [
+        ["css=.snipcart-flash-message__content", "css:finder"],
+        ["xpath=//form[@id='snipcart-billing-form']/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31e8ebf5-68f5-4c66-ad07-aca13c5d178e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-layout__cols",
+      "targets": [
+        ["css=.snipcart-layout__cols", "css:finder"],
+        ["xpath=//div[@id='snipcart']/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8ef29eb-70f3-4df7-9f8f-f877637b7590",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-modal__close-title",
+      "targets": [
+        ["css=.snipcart-modal__close-title", "css:finder"],
+        ["xpath=//div[@id='snipcart']/div/div/header/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue shopping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4308e643-76c7-4c59-9c3a-7cb51d4c20f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.material-icons",
+      "targets": [
+        ["css=.material-icons", "css:finder"],
+        ["xpath=//i", "xpath:position"],
+        ["xpath=//i[contains(.,'shopping_cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aebaf6d7-4d4e-4193-b83c-ff26a6cc0fd2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.material-icons",
+      "targets": [
+        ["css=.material-icons", "css:finder"],
+        ["xpath=//i", "xpath:position"],
+        ["xpath=//i[contains(.,'shopping_cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9021c2f9-e2e5-4f4b-8edc-fe4c121109f0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.material-icons",
+      "targets": [
+        ["css=.material-icons", "css:finder"],
+        ["xpath=//i", "xpath:position"],
+        ["xpath=//i[contains(.,'shopping_cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "867c22c9-e414-4a21-b18f-a3b6ce4fe957",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart__button--no-border:nth-child(1) > .snipcart__icon",
+      "targets": [
+        ["css=.snipcart__button--no-border:nth-child(1) > .snipcart__icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e0fd555-7acb-47ad-9eff-0617f6bd0d15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart__button--no-border:nth-child(1) > .snipcart__icon",
+      "targets": [
+        ["css=.snipcart__button--no-border:nth-child(1) > .snipcart__icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "dce38272-86e5-43c2-8eeb-5b13589e9c7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart__icon--red",
+      "targets": [
+        ["css=.snipcart__icon--red", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e50a3cf9-424a-423d-aef1-2ea7ad04dc78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-empty-cart",
+      "targets": [
+        ["css=.snipcart-empty-cart", "css:finder"],
+        ["xpath=//div[@id='snipcart']/div/div/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41228ef2-770a-4488-ab73-291c6e2f31dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-empty-cart",
+      "targets": [
+        ["css=.snipcart-empty-cart", "css:finder"],
+        ["xpath=//div[@id='snipcart']/div/div/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2097c45c-21ac-4ac6-804b-0d1fe25820db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-modal__close-title",
+      "targets": [
+        ["css=.snipcart-modal__close-title", "css:finder"],
+        ["xpath=//div[@id='snipcart']/div/div/header/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue shopping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "915fd404-5ed8-44ed-a68b-12189fb77a28",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) img",
+      "targets": [
+        ["css=li:nth-child(3) img", "css:finder"],
+        ["xpath=//div[@id='products']/section/div/ul/li[3]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "299f1ca2-4514-44b6-be03-528ce75d5ed6",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//div[@id='add']/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Gerald the Giraffe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "205ed205-f9d8-44e4-91ac-48f4188b8a35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//div[@id='add']/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04bb542a-1a94-4ba6-8853-b2da38f83550",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-add-item",
+      "targets": [
+        ["css=.snipcart-add-item", "css:finder"],
+        ["xpath=//div[@id='add']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7aaa3c42-865e-4d37-a4b7-d058c886bccd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.snipcart-add-item",
+      "targets": [
+        ["css=.snipcart-add-item", "css:finder"],
+        ["xpath=//div[@id='add']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a116efa-fadd-410e-9c48-06d3150007e5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.snipcart-add-item",
+      "targets": [
+        ["css=.snipcart-add-item", "css:finder"],
+        ["xpath=//div[@id='add']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea3bc2fa-1209-4320-a352-a3640f401127",
+      "comment": "",
+      "command": "click",
+      "target": "name=Color",
+      "targets": [
+        ["name=Color", "name"],
+        ["css=.snipcart-item-custom-fields__field:nth-child(2) .snipcart-dropdown-custom-field", "css:finder"],
+        ["xpath=//select[@name='Color']", "xpath:attributes"],
+        ["xpath=//div[@id='snipcart']/div/div/div/section/ul/li/div/div/div[2]/div/div[2]/div/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Green')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2618e174-0000-46a7-8884-c753c5b0d45d",
+      "comment": "",
+      "command": "click",
+      "target": "name=Color",
+      "targets": [
+        ["name=Color", "name"],
+        ["css=.snipcart-item-custom-fields__field:nth-child(2) .snipcart-dropdown-custom-field", "css:finder"],
+        ["xpath=//select[@name='Color']", "xpath:attributes"],
+        ["xpath=//div[@id='snipcart']/div/div/div/section/ul/li/div/div/div[2]/div/div[2]/div/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Green')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22b99c7e-49f8-4690-9f17-2f3a3cca385d",
+      "comment": "",
+      "command": "click",
+      "target": "name=Size",
+      "targets": [
+        ["name=Size", "name"],
+        ["css=.snipcart-item-custom-fields__field:nth-child(1) .snipcart-dropdown-custom-field", "css:finder"],
+        ["xpath=//select[@name='Size']", "xpath:attributes"],
+        ["xpath=//div[@id='snipcart']/div/div/div/section/ul/li/div/div/div[2]/div/div[2]/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6ef5846-82ac-41f5-a812-0cebfe74cf6c",
+      "comment": "",
+      "command": "select",
+      "target": "name=Size",
+      "targets": [],
+      "value": "label=Small"
+    }, {
+      "id": "e05eee31-b6c9-43d7-9edf-2828b5fe95f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-cart__footer",
+      "targets": [
+        ["css=.snipcart-cart__footer", "css:finder"],
+        ["xpath=//div[@id='snipcart']/div/div/div/section/div", "xpath:idRelative"],
+        ["xpath=//section/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f492030b-4536-4385-a3cd-7dab71996e5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-cart-button",
+      "targets": [
+        ["css=.snipcart-cart-button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='snipcart']/div/div/div/section/div/div[2]/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "daeb5f4a-ea5d-464e-b8cc-751ac8a466f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-layout__cols",
+      "targets": [
+        ["css=.snipcart-layout__cols", "css:finder"],
+        ["xpath=//div[@id='snipcart']/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05244925-2ad6-4be3-88f8-10c96729bf26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-layout__cols",
+      "targets": [
+        ["css=.snipcart-layout__cols", "css:finder"],
+        ["xpath=//div[@id='snipcart']/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1c8210d9-1bab-4e07-a59b-91e3c0c9e8c2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["118d0d3c-3e97-4a0f-9b72-3d5b7074b270"]
+  }],
+  "urls": ["https://qentinelqi.github.io/"],
+  "plugins": []
+}
